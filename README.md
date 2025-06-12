@@ -1,8 +1,5 @@
----
----
+
   #                   INFORME FINAL DE TIENDAS - ANÁLISIS DE DATOS
----
----
 
 <br>
 
@@ -11,9 +8,7 @@ cuatro tiendas, utilizando Python y bibliotecas estándar como Pandas, Matplotli
 y NumPy. El objetivo es obtener métricas clave sobre facturación, productos 
 vendidos, satisfacción de clientes y costos de envío.
 
--------------------------------------------------------------------------------
 ## CONTENIDO
--------------------------------------------------------------------------------
 
 1. Descripción del proyecto
 2. Requisitos del sistema
@@ -28,7 +23,7 @@ vendidos, satisfacción de clientes y costos de envío.
 -------------------------------------------------------------------------------
 
 Se importan datos desde archivos CSV alojados en GitHub, correspondientes a 
-cuatro ` (tienda_1.csv a tienda_4.csv).` A partir de estos datos, se 
+cuatro ```(tienda_1.csv a tienda_4.csv).```  A partir de estos datos, se 
 realiza un análisis comparativo para identificar tendencias y comportamientos 
 comerciales clave.
 
@@ -67,7 +62,7 @@ pip install pandas matplotlib numpy
 
 1. Clona este repositorio o descarga los archivos del proyecto.
 
-2. Abre el archivo principal (por ejemplo, informe_final_tiendas.ipynb)
+2. Abre el archivo principal (por ejemplo, ```AluraStoreLatam.ipynb```)
 en tu entorno de desarrollo.
 
 3. Asegúrate de que las bibliotecas estén correctamente instaladas.
@@ -110,9 +105,9 @@ Si los gráficos no se muestran, asegúrate de ejecutar el entorno en modo
 interactivo (por ejemplo, con %matplotlib inline en Jupyter).
 
 Si falla la carga de datos, verifica la conexión a Internet y que las URLs
-de los archivos .csv estén activas.
+de los archivos ```.csv``` estén activas.
 
-Si falta alguna biblioteca, vuelve a ejecutar pip install como se
+Si falta alguna biblioteca, vuelve a ejecutar ```pip install``` como se
 indica en la sección 2.
 
 ---
@@ -121,3 +116,5 @@ indica en la sección 2.
 Este análisis fue desarrollado en el marco del Challenge Data Science LATAM
 organizado por Alura, utilizando datos públicos y simulados.
 
+Realizado por:
+[<img src="https://avatars.githubusercontent.com/u/196855177?s=96&v=4" width=125><br><sub>Miguel Angel Ajhuacho</sub>](https://github.com/MigXDev) 
