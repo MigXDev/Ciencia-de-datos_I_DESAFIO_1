@@ -1,48 +1,60 @@
+# ▌ INFORME FINAL DE TIENDAS  
+═══════════════════════════════════════  
 
-  #                   INFORME FINAL DE TIENDAS - ANÁLISIS DE DATOS
+### ✦ ANÁLISIS EXPLORATORIO DE DATOS (EDA) ✦  
 
-<br>
+Este proyecto presenta un análisis exploratorio de datos (EDA) aplicado a cuatro tiendas, utilizando Python y bibliotecas estándar como `Pandas`, `Matplotlib` y `NumPy`. El objetivo es obtener métricas clave sobre facturación, productos vendidos, satisfacción de clientes y costos de envío.
 
-Este proyecto presenta un análisis exploratorio de datos (EDA) aplicado a 
-cuatro tiendas, utilizando Python y bibliotecas estándar como Pandas, Matplotlib 
-y NumPy. El objetivo es obtener métricas clave sobre facturación, productos 
-vendidos, satisfacción de clientes y costos de envío.
+---
 
-## CONTENIDO
+## ▌ÍNDICE DE CONTENIDOS  
+────────────────────────────
 
-1. Descripción del proyecto
-2. Requisitos del sistema
-3. Instrucciones de instalación
-4. Ejecución del análisis
-5. Estructura del análisis
-6. Posibles problemas y soluciones
-7. Créditos
+1. [Descripción del proyecto](#1--descripción-del-proyecto)  
+2. [Requisitos del sistema](#2-requisitos-del-sistema)  
+3. [Instrucciones de instalación](#3-instrucciones-de-instalación)  
+4. [Ejecución del análisis](#4-ejecución-del-análisis)  
+5. [Estructura del análisis](#5-estructura-del-análisis)  
+6. [Posibles problemas y soluciones](#6-posibles-problemas-y-soluciones)  
+7. [Créditos](#7-créditos)
 
--------------------------------------------------------------------------------
-### 1. DESCRIPCIÓN DEL PROYECTO
--------------------------------------------------------------------------------
+## 1.  ▌DESCRIPCIÓN DEL PROYECTO  
+────────────────────────────────────
 
-Se importan datos desde archivos CSV alojados en GitHub, correspondientes a 
-cuatro ```(tienda_1.csv a tienda_4.csv).```  A partir de estos datos, se 
-realiza un análisis comparativo para identificar tendencias y comportamientos 
-comerciales clave.
+Se importan datos desde archivos CSV alojados en GitHub, correspondientes a cuatro:
 
-Las variables analizadas incluyen:
+```text
+tienda_1.csv  
+tienda_2.csv  
+tienda_3.csv  
+tienda_4.csv  
+```
 
-- Precio de productos
-- Categoría de productos
-- Calificaciones de clientes
-- Costos de envío
+A partir de estos datos, se realiza un análisis comparativo para identificar tendencias y comportamientos comerciales clave.
+
+**Variables analizadas:**
+
+- Precio de productos  
+- Categoría de productos  
+- Calificaciones de clientes  
+- Costos de envío  
 - Frecuencia de venta por producto
 
--------------------------------------------------------------------------------
-### 2. REQUISITOS DEL SISTEMA
--------------------------------------------------------------------------------
+---
 
-Para ejecutar este proyecto es necesario contar con:
+## 2. ▌REQUISITOS DEL SISTEMA  
+────────────────────────────────────
 
-- Python 3.8 o superior
-- Entorno recomendado: Jupyter Notebook, VS Code o cualquier IDE compatible
+**Lenguaje y entorno sugerido:**
+
+- Python 3.8 o superior  
+- Entorno recomendado: Jupyter Notebook, VS Code o cualquier IDE compatible  
+
+**Dependencias necesarias:**
+
+```bash
+pip install pandas matplotlib numpy
+```
 
 Bibliotecas necesarias:
 
@@ -50,71 +62,73 @@ Bibliotecas necesarias:
 - matplotlib
 - numpy
 
-Instalación de dependencias:
+---
+
+## 3. ▌INSTRUCCIONES DE INSTALACIÓN  
+────────────────────────────────────────────
+
+1. Cloná este repositorio o descargá los archivos del proyecto.  
+2. Abrí el archivo principal (por ejemplo, `AluraStoreLatam.ipynb`) en tu entorno de desarrollo.  
+3. Verificá que las bibliotecas necesarias estén instaladas.  
+4. Ejecutá las celdas en orden para visualizar cada parte del análisis.
+
+---
+
+## 4. ▌EJECUCIÓN DEL ANÁLISIS  
+───────────────────────────────────────
+
+Cada sección del código está comentada para facilitar su comprensión.  
+El análisis incluye los siguientes puntos destacados:
+
+▸ Ingresos totales por tienda *(gráfico de barras)*  
+▸ Cantidad de productos vendidos por categoría *(gráfico tipo donut)*  
+▸ Calificación promedio por tienda *(barras horizontales)*  
+▸ Producto más y menos vendido por tienda *(comparativo con etiquetas)*  
+▸ Costo de envío promedio por tienda *(barras simples)*
+
+---
+
+## 5. ▌ESTRUCTURA DEL ANÁLISIS  
+────────────────────────────────────────
+
+El proyecto se organiza en cinco bloques principales:
+
+1. Importación de datos  
+2. Cálculo de ingresos  
+3. Análisis por categoría  
+4. Evaluación de satisfacción del cliente  
+5. Estudio de costos y volumen de productos
+
+> Todos los gráficos generados ayudan a interpretar visualmente los resultados.
+
+---
+
+## 6. ▌POSIBLES PROBLEMAS Y SOLUCIONES  
+─────────────────────────────────────────────────────
+
+◉ **Los gráficos no se muestran**  
+→ Ejecutá el entorno en modo interactivo (por ejemplo, con `%matplotlib inline` en Jupyter).  
+
+◉ **Error al cargar los datos**  
+→ Verificá la conexión a Internet y que las URLs de los archivos `.csv` estén activas.  
+
+◉ **Falta alguna biblioteca**  
+→ Ejecutá nuevamente el comando:
 
 ```bash
 pip install pandas matplotlib numpy
 ```
-
----
-### 3. INSTRUCCIONES DE INSTALACIÓN
 ---
 
-1. Clona este repositorio o descarga los archivos del proyecto.
+## 7. ▌CRÉDITOS  
+────────────────────
 
-2. Abre el archivo principal (por ejemplo, ```AluraStoreLatam.ipynb```)
-en tu entorno de desarrollo.
+Este análisis fue desarrollado como parte del **Challenge Data Science LATAM**, organizado por **Alura**, empleando datos públicos simulados con fines educativos.
 
-3. Asegúrate de que las bibliotecas estén correctamente instaladas.
+**Autor:**  
+[<img src="https://avatars.githubusercontent.com/u/196855177?s=96&v=4" width="125"><br><sub>Miguel Angel Ajhuacho</sub>](https://github.com/MigXDev)
 
-4. Ejecuta las celdas en orden para visualizar cada parte del análisis.
 
----
-### 4. EJECUCIÓN DEL ANÁLISIS
----
-Cada sección del código se encuentra comentada para facilitar su comprensión.
-El análisis incluye:
-
-- Ingresos totales por tienda (gráfico de barras)
-
-- Cantidad de productos vendidos por categoría (gráfico tipo donut)
-
-- Calificación promedio por tienda (barras horizontales)
-
-- Producto más y menos vendido por tienda (comparativo con etiquetas)
-
-- Costo de envío promedio por tienda (barras simples)
-
----
-### 5. ESTRUCTURA DEL ANÁLISIS
----
-El proyecto se estructura en cinco bloques principales:
-
-- Importación de datos
-- Cálculo de ingresos
-- Análisis por categoría
-- Evaluación de satisfacción del cliente
-- Estudio de costos y volumen de productos
-
-Los gráficos generados ayudan a interpretar visualmente los resultados.
-
----
-### 6. POSIBLES PROBLEMAS Y SOLUCIONES
----
-Si los gráficos no se muestran, asegúrate de ejecutar el entorno en modo
-interactivo (por ejemplo, con %matplotlib inline en Jupyter).
-
-Si falla la carga de datos, verifica la conexión a Internet y que las URLs
-de los archivos ```.csv``` estén activas.
-
-Si falta alguna biblioteca, vuelve a ejecutar ```pip install``` como se
-indica en la sección 2.
-
----
-### 7. CRÉDITOS
----
-Este análisis fue desarrollado en el marco del Challenge Data Science LATAM
-organizado por Alura, utilizando datos públicos y simulados.
-
-Realizado por:
-[<img src="https://avatars.githubusercontent.com/u/196855177?s=96&v=4" width=125><br><sub>Miguel Angel Ajhuacho</sub>](https://github.com/MigXDev) 
+**Contacto profesional:**  
+- GitHub: [@MigXDev](https://github.com/MigXDev)  
+- LinkedIn: *[Miguee](https://www.linkedin.com/in/ctrl-z--migue-ajh/)*  
