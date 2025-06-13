@@ -58,9 +58,9 @@ pip install pandas matplotlib numpy
 
 Bibliotecas necesarias:
 
-- pandas
-- matplotlib
-- numpy
+| **Pandas**      | **Matplotlib**      | **NumPy**     |
+|:-----------------:|:-----------------:|:-----------------:|
+|<img src="https://github.com/user-attachments/assets/9a938aa7-6c50-4142-aab8-68180fb072f9" width="120" alt="Pandas logo"> | <img src="https://github.com/user-attachments/assets/06721bd1-e433-4c99-aa2c-5799c9d2b286" width="120" alt="Matplotlib logo"> | <img src="https://numpy.org/images/logo.svg" width="120" alt="NumPy logo"> |
 
 ---
 
@@ -126,7 +126,12 @@ pip install pandas matplotlib numpy
 Este análisis fue desarrollado como parte del **Challenge Data Science LATAM**, organizado por **Alura**, empleando datos públicos simulados con fines educativos.
 
 **Autor:**  
-[<img src="https://avatars.githubusercontent.com/u/196855177?s=96&v=4" width="125"><br><sub>Miguel Angel Ajhuacho</sub>](https://github.com/MigXDev)
+
+| <img src="https://avatars.githubusercontent.com/u/196855177?s=96&v=4" width="125">|
+|:-----------------:|
+| *[Miguel Angel Ajhuacho](https://github.com/MigXDev)* |
+
+
 
 
 **Contacto profesional:**  
