@@ -1,5 +1,5 @@
-# ▌ INFORME FINAL DE TIENDAS  
-═══════════════════════════════════════  
+# ▌ INFORME FINAL DE TIENDAS - Challenge ALura Store  
+═══════════════════════════════════════════════════════════
 
 ### ✦ ANÁLISIS EXPLORATORIO DE DATOS (EDA) ✦  
 
